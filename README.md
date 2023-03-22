@@ -1,7 +1,7 @@
 # Experimental Comparison of REST and gRPC APIs 
 
 ## Overview
-Thi sproject demonstrates the programmatic and performance differences between REST and gRPC API's. We develop a REST and a gRPC API then compare the performance for latency / bandwidth.
+This project demonstrates the programmatic and performance differences between REST and gRPC API's. We develop a REST and a gRPC API then compare the performance for latency / bandwidth.
 
 ## Experiment
 We use the client to accept a command-line argument indicating the endpoint to be tested and the number of iterations to test. For example,
