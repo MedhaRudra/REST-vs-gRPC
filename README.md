@@ -15,7 +15,7 @@ python grpc-client.py localhost add 1000
 ```
 would run the `add` endpoint 1000 times against the server on the `localhost` and then report the time taken divided by the number of queries (1000). This gives a time-per-query, which is expressed in milliseconds. The python `perf_counter` routine from the [`time` module] makes it easy to conduct such timing tests. We measure multiple queries because each query is fairly short and we want to average over many such queries.
 
-All experiments have ben conducted on VM instance of Google Cloud Platform (`e2-standard-2` instance)
+All experiments have been conducted on VM instance of Google Cloud Platform (`e2-standard-2` instance)
 
 ## Results
 | Method 			| Local  |Same Zone | Different Region |
